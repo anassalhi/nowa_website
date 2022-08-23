@@ -7,15 +7,13 @@ import { AnimatePresence } from "framer-motion";
 
 function App() {
   return (
-    <AnimatePresence>
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<HomePage />} />
-          <Route path="about" element={<AboutPage />} />
-          <Route path="/*" element={<HomePage />} />
-        </Routes>
-      </BrowserRouter>
-    </AnimatePresence>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<HomePage />} />
+        <Route path="about" element={<AboutPage />} />
+        <Route path="/*" element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

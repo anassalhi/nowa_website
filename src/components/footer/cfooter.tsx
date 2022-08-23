@@ -52,7 +52,7 @@ export const Footer = () => {
           </li>
           <li>
             <a
-              href="https://discord.gg/ByKfn3H7gX"
+              href="https://www.linkedin.com/company/nowaengine/"
               target="_blank"
               rel="noopener noreferrer"
             >
