@@ -1,0 +1,85 @@
+.mw {
+  width: var(--opt-width);
+}
+.mara {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.amci {
+  animation: amci 0.3s ease-out forwards;
+}
+.ami {
+  background-color: white;
+  width: clamp(320px, 80vw, 1350px) !important;
+  height: clamp(320px, 80vh, 1350px) !important;
+  overflow: hidden;
+  padding: 10px;
+  animation: ami 0.3s cubic-bezier(0.62, -0.06, 0.19, 1.33) forwards;
+}
+
+.amo {
+  background-color: white;
+  width: clamp(320px, 80vw, 1350px) !important;
+  height: clamp(320px, 80vh, 1350px) !important;
+  animation: amo 0.3s cubic-bezier(0.56, -0.64, 0.42, 1) forwards;
+  overflow: hidden;
+  padding: 10px;
+  visibility: visible;
+}
+
+// animate the modal inner content
+@keyframes ami {
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    visibility: visible;
+  }
+}
+@keyframes amci {
+  0% {
+    backdrop-filter: blur(0px);
+    background-color: rgba(0, 0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: visible;
+  }
+}
+
+@keyframes amo {
+  0% {
+    visibility: visible;
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.6);
+    opacity: 0;
+    visibility: hidden;
+    user-select: none;
+  }
+}
+@keyframes amco {
+  0% {
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: visible;
+    user-select: auto;
+  }
+  100% {
+    backdrop-filter: blur(0px);
+    background-color: rgba(0, 0, 0, 0);
+    visibility: hidden;
+    user-select: none;
+  }
+}
