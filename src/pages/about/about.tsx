@@ -20,8 +20,9 @@ export const AboutPage = () => {
                 className="hero-image"
                 initial={{
                   opacity: 0,
+                  x: -100,
                 }}
-                animate={{ x: [-100, 0], opacity: 1 }}
+                animate={{ x: 0, opacity: 1 }}
                 transition={{
                   duration: 0.75,
                 }}
@@ -35,8 +36,9 @@ export const AboutPage = () => {
                 className="hero-mission"
                 initial={{
                   opacity: 0,
+                  x: 100,
                 }}
-                animate={{ x: [100, 0], opacity: 1 }}
+                animate={{ x: 0, opacity: 1 }}
                 transition={{
                   duration: 0.75,
                   delay: 0.2,

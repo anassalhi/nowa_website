@@ -1,6 +1,5 @@
 import "./footer.scss";
 import logo from "../../assets/logo2.png";
-import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <footer className="mara mw">

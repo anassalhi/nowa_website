@@ -110,7 +110,8 @@ export const HomePage = () => {
           <div className="st-feature">
             <motion.div
               className="feature-desc"
-              whileInView={{ x: [-250, 0], opacity: [0, 1] }}
+              initial={{ x: -250, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
               transition={{
                 duration: 0.6,
               }}
@@ -127,7 +128,11 @@ export const HomePage = () => {
             </motion.div>
             <motion.div
               className="feature-image"
-              whileInView={{ x: [250, 0], opacity: [0, 1] }}
+              initial={{
+                x: 250,
+                opacity: 0,
+              }}
+              whileInView={{ x: 0, opacity: 1 }}
               transition={{
                 duration: 0.6,
               }}
@@ -141,7 +146,11 @@ export const HomePage = () => {
           <div className="st-feature">
             <motion.div
               className="feature-desc"
-              whileInView={{ x: [-250, 0], opacity: [0, 1] }}
+              initial={{
+                x: -250,
+                opacity: 0,
+              }}
+              whileInView={{ x: 0, opacity: 1 }}
               transition={{
                 duration: 0.6,
               }}
@@ -158,7 +167,11 @@ export const HomePage = () => {
             </motion.div>
             <motion.div
               className="feature-image"
-              whileInView={{ x: [250, 0], opacity: [0, 1] }}
+              initial={{
+                x: 250,
+                opacity: 0,
+              }}
+              whileInView={{ x: 0, opacity: 1 }}
               transition={{
                 duration: 0.6,
               }}
@@ -172,7 +185,11 @@ export const HomePage = () => {
           <div className="st-feature">
             <motion.div
               className="feature-desc"
-              whileInView={{ x: [-250, 0], opacity: [0, 1] }}
+              initial={{
+                x: -250,
+                opacity: 0,
+              }}
+              whileInView={{ x: 0, opacity: 1 }}
               transition={{
                 duration: 0.6,
               }}
@@ -188,7 +205,11 @@ export const HomePage = () => {
             </motion.div>
             <motion.div
               className="feature-image"
-              whileInView={{ x: [250, 0], opacity: [0, 1] }}
+              initial={{
+                x: 250,
+                opacity: 0,
+              }}
+              whileInView={{ x: 0, opacity: 1 }}
               transition={{
                 duration: 0.6,
               }}
@@ -202,7 +223,11 @@ export const HomePage = () => {
           <div className="st-feature">
             <motion.div
               className="feature-desc"
-              whileInView={{ x: [-250, 0], opacity: [0, 1] }}
+              initial={{
+                x: -250,
+                opacity: 0,
+              }}
+              whileInView={{ x: 0, opacity: 1 }}
               transition={{
                 duration: 0.6,
               }}
@@ -220,7 +245,11 @@ export const HomePage = () => {
             </motion.div>
             <motion.div
               className="feature-image"
-              whileInView={{ x: [250, 0], opacity: [0, 1] }}
+              initial={{
+                x: 250,
+                opacity: 0,
+              }}
+              whileInView={{ x: 0, opacity: 1 }}
               transition={{
                 duration: 0.6,
               }}
