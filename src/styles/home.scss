@@ -114,7 +114,7 @@
       object-fit: scale-down;
       display: inherit;
       position: absolute;
-      bottom: -100px;
+      bottom: -150px;
     }
   }
 }
@@ -191,7 +191,9 @@
   display: flex;
   flex-direction: column;
   gap: 180px;
-
+  @media (max-width: 915px) {
+    margin-top: 60px !important;
+  }
   .st-feature {
     display: grid;
     grid-template-columns: 1fr 1fr;

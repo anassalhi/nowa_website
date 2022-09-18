@@ -4,6 +4,9 @@
   background: center/cover url("../../assets/splash.svg");
   width: 100vw;
   overflow: hidden;
+  @media (max-width: 915px) {
+    margin-top: 46px !important;
+  }
   .st-preview {
     display: flex;
     flex-direction: column;
